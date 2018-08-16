@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<config>
+    <asscocTypes>0</asscocTypes>
+    <assocType0>
+        <!--<input>-->
+            <!--<fsOrDriver>hdfs</fsOrDriver>-->
+            <!--<host>10.3.32.82</host>-->
+            <!--<port>9000</port>-->
+            <!--<path>/opt/hadoop-2.7.3/hdfs/istock/cleaned/view/orders_sales/*</path>-->
+        <!--</input>-->
+        <input>
+            <fsOrDriver>hive</fsOrDriver>
+            <host>10.3.32.82</host>
+            <port>9000</port>
+            <path>/user/hive/warehouse</path>
+        </input>
+        <output>
+            <fsOrDriver>com.mysql.jdbc.Driver</fsOrDriver>
+            <host>10.3.32.82</host>
+            <port>9000</port>
+            <user>root</user>
+            <password>roottest</password>
+            <schema>big_data</schema>
+            <table>itemassoc</table>
+        </output>
+    </assocType0>
+</config>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- $Author: lulin $ -->
+<!-- $Revision: 1 $ -->
+<!-- $Date: 2017-10-17 11:34:32 $ -->
+
+<dataset>
+    <!-- Default Test Application -->
+    <tenant id="0" stringId="TEST" description="aaa" ratingRangeMin="1" ratingRangeMax="10" ratingRangeNeutral="5.5"
+            active="1"/>
+
+    <!-- Currently support Applications of DianShang998 -->
+    <tenant id="1" stringId="OFFICIAL-WEBSITE" description="The official website of EHaoYao commercial platform"
+            ratingRangeMin="1" ratingRangeMax="10" ratingRangeNeutral="5.5"
+            active="1"/>
+    <tenant id="2" stringId="OFFICIAL-APP" description="The official App of EHaoYao commercial platform"
+            ratingRangeMin="1" ratingRangeMax="10" ratingRangeNeutral="5.5"
+            active="1"/>
+
+    <!-- Test data -->
+    <tenant id="3" stringId="RASCALLI" description="ddd" ratingRangeMin="1" ratingRangeMax="10" ratingRangeNeutral="5.5"
+            active="1"/>
+    <tenant id="4" stringId="SOUNDSCOUT" description="eee" ratingRangeMin="1" ratingRangeMax="10"
+            ratingRangeNeutral="5.5" active="1"/>
+</dataset>

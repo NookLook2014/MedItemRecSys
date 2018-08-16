@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- $Author: lulin $ -->
+<!-- $Revision: 1 $ -->
+<!-- $Date: 2017-10-17 11:34:32 $ -->
+
+<dataset>
+    <!-- 加入购物车 -->
+    <actiontype tenantId="0" id="1" name="ADD_TO_CART"/>
+    <!-- 下单购买 -->
+    <actiontype tenantId="0" id="2" name="BUY"/>
+    <!-- 预览 -->
+    <actiontype tenantId="0" id="3" name="PREVIEW"/>
+    <!-- 评价 -->
+    <actiontype tenantId="0" id="4" name="RATE"/>
+    <!-- 搜索 -->
+    <actiontype tenantId="0" id="5" name="SEARCH"/>
+    <!-- 浏览 -->
+    <actiontype tenantId="0" id="6" name="VIEW"/>
+    <!-- 关注 -->
+    <actiontype tenantId="0" id="7" name="FOLLOW"/>
+
+    <!-- 加入购物车 -->
+    <actiontype tenantId="1" id="1" name="ADD_TO_CART"/>
+    <!-- 下单购买 -->
+    <actiontype tenantId="1" id="2" name="BUY"/>
+    <!-- 预览 -->
+    <actiontype tenantId="1" id="3" name="PREVIEW"/>
+    <!-- 评价 -->
+    <actiontype tenantId="1" id="4" name="RATE"/>
+    <!-- 搜索 -->
+    <actiontype tenantId="1" id="5" name="SEARCH"/>
+    <!-- 浏览 -->
+    <actiontype tenantId="1" id="6" name="VIEW"/>
+    <!-- 关注 -->
+    <actiontype tenantId="1" id="7" name="FOLLOW"/>
+
+    <!-- 加入购物车 -->
+    <actiontype tenantId="2" id="1" name="ADD_TO_CART"/>
+    <!-- 下单购买 -->
+    <actiontype tenantId="2" id="2" name="BUY"/>
+    <!-- 预览 -->
+    <actiontype tenantId="2" id="3" name="PREVIEW"/>
+    <!-- 评价 -->
+    <actiontype tenantId="2" id="4" name="RATE"/>
+    <!-- 搜索 -->
+    <actiontype tenantId="2" id="5" name="SEARCH"/>
+    <!-- 浏览 -->
+    <actiontype tenantId="2" id="6" name="VIEW"/>
+    <!-- 关注 -->
+    <actiontype tenantId="2" id="7" name="FOLLOW"/>
+</dataset>
